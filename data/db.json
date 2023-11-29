@@ -1,0 +1,945 @@
+{
+  "questions": [
+    {
+      "question": "What is JSX in React?",
+      "options": [
+        "JavaScript XML",
+        "JavaScript Expressions",
+        "JavaScript Syntax Extension",
+        "JavaScript XML Syntax"
+      ],
+      "correctOption": 0,
+      "points": 15,
+      "type": "react"
+    },
+    {
+      "question": "What is the purpose of React Router?",
+      "options": [
+        "Managing component states",
+        "Handling API requests",
+        "Enabling server-side rendering",
+        "Managing navigation and routing"
+      ],
+      "correctOption": 3,
+      "points": 12,
+      "type": "react"
+    },
+    {
+      "question": "What is the significance of the 'key' prop in React lists?",
+      "options": [
+        "It helps in styling the list items",
+        "It provides a unique identifier to list items",
+        "It determines the order of list rendering",
+        "It is required for defining component methods"
+      ],
+      "correctOption": 1,
+      "points": 14,
+      "type": "react"
+    },
+    {
+      "question": "What is the purpose of the 'useState' hook in React?",
+      "options": [
+        "To fetch data from APIs",
+        "To manage and update component state in functional components",
+        "To create reusable components",
+        "To define the component's lifecycle methods"
+      ],
+      "correctOption": 1,
+      "points": 11,
+      "type": "react"
+    },
+    {
+      "question": "What is prop drilling in React?",
+      "options": [
+        "Passing data from parent to child components",
+        "Passing data between sibling components",
+        "Passing data from child to parent components",
+        "Passing data between unrelated components"
+      ],
+      "correctOption": 0,
+      "points": 13,
+      "type": "react"
+    },
+    {
+      "question": "What are React Fragments used for?",
+      "options": [
+        "Creating animations in React",
+        "Improving component performance",
+        "Defining conditional rendering",
+        "Grouping multiple elements without adding extra nodes to the DOM"
+      ],
+      "correctOption": 3,
+      "points": 10,
+      "type": "react"
+    },
+    {
+      "question": "What is the purpose of 'componentDidMount' lifecycle method in React?",
+      "options": [
+        "To update component state",
+        "To render the component on the screen",
+        "To perform cleanup operations before unmounting",
+        "To execute code after the component has been inserted into the DOM"
+      ],
+      "correctOption": 3,
+      "points": 12,
+      "type": "react"
+    },
+    {
+      "question": "What is the role of Redux in a React application?",
+      "options": [
+        "Managing component styles",
+        "Handling component routing",
+        "Managing global state",
+        "Optimizing component rendering"
+      ],
+      "correctOption": 2,
+      "points": 15,
+      "type": "react"
+    },
+    {
+      "question": "What is the purpose of the 'memo' function in React?",
+      "options": [
+        "To create higher-order components",
+        "To perform asynchronous operations",
+        "To optimize functional components by preventing unnecessary re-renders",
+        "To handle forms and user input"
+      ],
+      "correctOption": 2,
+      "points": 13,
+      "type": "react"
+    },
+    {
+      "question": "What is the Virtual DOM in React?",
+      "options": [
+        "An alternate way to style components",
+        "A JavaScript object representing the current state of the application",
+        "A technique for optimizing DOM manipulation",
+        "A tool for managing asynchronous operations"
+      ],
+      "correctOption": 2,
+      "points": 14,
+      "type": "react"
+    },
+
+    {
+      "question": "What is the purpose of the 'useEffect' hook in React?",
+      "options": [
+        "To create reusable custom hooks",
+        "To manage side effects in functional components",
+        "To optimize rendering performance",
+        "To define event handlers for components"
+      ],
+      "correctOption": 1,
+      "points": 14,
+      "type": "react"
+    },
+    {
+      "question": "What is the concept of prop types in React?",
+      "options": [
+        "A way to define component states",
+        "A mechanism for type-checking component props",
+        "A technique for styling components",
+        "A method for handling component animations"
+      ],
+      "correctOption": 1,
+      "points": 12,
+      "type": "react"
+    },
+    {
+      "question": "What is the role of the 'create-react-app' tool?",
+      "options": [
+        "To create production-ready React applications",
+        "To manage version control for React projects",
+        "To set up a development environment with React and related tools",
+        "To generate API documentation for React components"
+      ],
+      "correctOption": 2,
+      "points": 11,
+      "type": "react"
+    },
+    {
+      "question": "What is the purpose of the 'forwardRef' function in React?",
+      "options": [
+        "To create higher-order components",
+        "To pass data between sibling components",
+        "To create references to DOM elements",
+        "To allow components to pass refs to their children"
+      ],
+      "correctOption": 3,
+      "points": 13,
+      "type": "react"
+    },
+    {
+      "question": "What is server-side rendering (SSR) in React?",
+      "options": [
+        "A technique for optimizing component rendering",
+        "A method to render components on the server and send HTML to the client",
+        "A strategy for handling asynchronous requests in React",
+        "A way to create custom rendering pipelines in React"
+      ],
+      "correctOption": 1,
+      "points": 15,
+      "type": "react"
+    },
+    {
+      "question": "What is the purpose of the 'context' API in React?",
+      "options": [
+        "To manage global state without prop drilling",
+        "To create private methods in components",
+        "To define component lifecycle methods",
+        "To optimize rendering performance"
+      ],
+      "correctOption": 0,
+      "points": 14,
+      "type": "react"
+    },
+    {
+      "question": "What are React hooks?",
+      "options": [
+        "Pre-built UI components in React",
+        "Functional components with special behaviors",
+        "Methods for integrating React with external libraries",
+        "Helper functions for optimizing DOM updates"
+      ],
+      "correctOption": 1,
+      "points": 12,
+      "type": "react"
+    },
+    {
+      "question": "What is the purpose of the 'componentWillUnmount' lifecycle method in React?",
+      "options": [
+        "To update component state",
+        "To render the component on the screen",
+        "To perform cleanup operations before unmounting",
+        "To execute code after the component has been inserted into the DOM"
+      ],
+      "correctOption": 2,
+      "points": 13,
+      "type": "react"
+    },
+    {
+      "question": "What is the role of the 'setState' function in React class components?",
+      "options": [
+        "To define the initial state of the component",
+        "To create new component instances",
+        "To update the component's state and trigger a re-render",
+        "To manage component props"
+      ],
+      "correctOption": 2,
+      "points": 14,
+      "type": "react"
+    },
+    {
+      "question": "What is the concept of React hooks?",
+      "options": [
+        "A way to organize component files in a project",
+        "A set of built-in UI components in React",
+        "A feature that allows you to create class components in a functional way",
+        "Functions that allow you to 'hook into' React state and lifecycle features in functional components"
+      ],
+      "correctOption": 3,
+      "points": 15,
+      "type": "react"
+    },
+
+    {
+      "question": "What is the difference between 'null' and 'undefined' in JavaScript?",
+      "options": [
+        "'null' represents the absence of a value, while 'undefined' indicates a variable has been declared but hasn't been assigned a value.",
+        "'null' is used for numbers, and 'undefined' is used for strings.",
+        "'null' is used for function parameters, and 'undefined' is used for variables.",
+        "'null' is a primitive type, and 'undefined' is an object."
+      ],
+      "correctOption": 0,
+      "points": 14,
+      "type": "javascript"
+    },
+    {
+      "question": "What is a closure in JavaScript?",
+      "options": [
+        "A data structure for storing variables.",
+        "A built-in function in JavaScript.",
+        "A mechanism that allows a function to remember variables from its outer scope even after it finishes execution.",
+        "A method for encapsulating asynchronous code."
+      ],
+      "correctOption": 2,
+      "points": 15,
+      "type": "javascript"
+    },
+    {
+      "question": "What does the 'this' keyword refer to in JavaScript?",
+      "options": [
+        "It refers to the current file's context.",
+        "It refers to the innermost function's scope.",
+        "It refers to the global object.",
+        "It refers to the object that invokes the current function."
+      ],
+      "correctOption": 3,
+      "points": 12,
+      "type": "javascript"
+    },
+    {
+      "question": "What is the purpose of the 'bind' method in JavaScript?",
+      "options": [
+        "To concatenate two or more strings.",
+        "To create a copy of an array.",
+        "To convert a function into a string.",
+        "To set the value of 'this' explicitly for a function."
+      ],
+      "correctOption": 3,
+      "points": 11,
+      "type": "javascript"
+    },
+    {
+      "question": "What is the difference between 'let', 'const', and 'var' in JavaScript for variable declaration?",
+      "options": [
+        "'let' and 'const' are used for function scope, while 'var' is used for block scope.",
+        "'let' allows reassignment, 'const' variables cannot be reassigned, and 'var' has function scope.",
+        "'var' is used for constants, 'let' is used for block scope, and 'const' is used for function scope.",
+        "'const' is used for block scope, 'let' has function scope, and 'var' is used for global scope."
+      ],
+      "correctOption": 1,
+      "points": 14,
+      "type": "javascript"
+    },
+    {
+      "question": "What is the purpose of the 'map' function in JavaScript?",
+      "options": [
+        "To create new arrays with modified elements based on the original array.",
+        "To remove elements from an array.",
+        "To iterate over an array using a for loop.",
+        "To find the first element that matches a specific condition."
+      ],
+      "correctOption": 0,
+      "points": 13,
+      "type": "javascript"
+    },
+    {
+      "question": "What is the difference between '==', '===', and '!=' in JavaScript?",
+      "options": [
+        "'==' performs strict equality comparison, '===' performs type coercion, and '!=' checks for non-equality.",
+        "'==' performs type coercion, '===' performs strict equality comparison, and '!=' checks for equality.",
+        "'==' checks for strict equality, '===' performs type coercion, and '!=' checks for non-equality.",
+        "'==' performs type coercion, '===' checks for strict equality, and '!=' checks for non-equality."
+      ],
+      "correctOption": 3,
+      "points": 12,
+      "type": "javascript"
+    },
+    {
+      "question": "What is the concept of event delegation in JavaScript?",
+      "options": [
+        "A way to dynamically add event listeners to elements.",
+        "A method for passing data between functions.",
+        "A technique for managing asynchronous code execution.",
+        "A strategy to attach a single event listener to a common ancestor of multiple elements."
+      ],
+      "correctOption": 3,
+      "points": 13,
+      "type": "javascript"
+    },
+    {
+      "question": "What is the purpose of the 'async/await' syntax in JavaScript?",
+      "options": [
+        "To declare asynchronous functions.",
+        "To handle errors in synchronous code.",
+        "To create generators for iteration.",
+        "To simplify working with asynchronous code by using synchronous-style syntax."
+      ],
+      "correctOption": 3,
+      "points": 15,
+      "type": "javascript"
+    },
+    {
+      "question": "What is the concept of a promise in JavaScript?",
+      "options": [
+        "A way to define object constructors.",
+        "A method for handling errors in try-catch blocks.",
+        "A design pattern for organizing code into modules.",
+        "An object representing the eventual completion or failure of an asynchronous operation."
+      ],
+      "correctOption": 3,
+      "points": 14,
+      "type": "javascript"
+    },
+    {
+      "question": "What is a JavaScript closure?",
+      "options": [
+        "A data structure used to store multiple values.",
+        "A method to prevent memory leaks in JavaScript code.",
+        "A way to encapsulate code within a function to access outer scope variables.",
+        "A technique to handle multiple asynchronous tasks simultaneously."
+      ],
+      "correctOption": 2,
+      "points": 14,
+      "type": "javascript"
+    },
+    {
+      "question": "What does the 'typeof' operator in JavaScript return?",
+      "options": [
+        "The data type of the variable.",
+        "The value of the variable.",
+        "A boolean indicating if the variable is defined or not.",
+        "The length of the variable."
+      ],
+      "correctOption": 0,
+      "points": 13,
+      "type": "javascript"
+    },
+    {
+      "question": "What is the purpose of the 'forEach' method in JavaScript?",
+      "options": [
+        "To create new arrays based on the elements of the original array.",
+        "To iterate over elements of an array and apply a function to each.",
+        "To filter out elements from an array.",
+        "To reverse the order of elements in an array."
+      ],
+      "correctOption": 1,
+      "points": 12,
+      "type": "javascript"
+    },
+    {
+      "question": "What is the difference between '==' and '===' in JavaScript?",
+      "options": [
+        "'==' performs strict equality comparison, while '===' performs type coercion.",
+        "'==' performs type coercion, while '===' performs strict equality comparison.",
+        "'==' checks for non-equality, while '===' checks for equality.",
+        "'==' checks for strict equality, while '===' checks for type equality."
+      ],
+      "correctOption": 1,
+      "points": 14,
+      "type": "javascript"
+    },
+    {
+      "question": "What is the 'event' object in JavaScript used for?",
+      "options": [
+        "To store the result of a mathematical operation.",
+        "To manage timing and delays in code execution.",
+        "To represent a DOM element.",
+        "To store information about an event triggered by a user or the browser."
+      ],
+      "correctOption": 3,
+      "points": 15,
+      "type": "javascript"
+    },
+    {
+      "question": "What is the purpose of the 'parseInt' function in JavaScript?",
+      "options": [
+        "To convert a string to an integer.",
+        "To convert an integer to a string.",
+        "To calculate the square root of a number.",
+        "To round a floating-point number to the nearest integer."
+      ],
+      "correctOption": 0,
+      "points": 13,
+      "type": "javascript"
+    },
+    {
+      "question": "What is the concept of hoisting in JavaScript?",
+      "options": [
+        "A way to elevate the visibility of variables and functions within their scope.",
+        "A technique to minimize the load time of external resources.",
+        "A mechanism to secure sensitive data in a script.",
+        "A process of converting data between different types."
+      ],
+      "correctOption": 0,
+      "points": 12,
+      "type": "javascript"
+    },
+    {
+      "question": "What is an IIFE in JavaScript?",
+      "options": [
+        "An abbreviation for 'Inherited Iteration For Each Element'.",
+        "An object-oriented programming pattern.",
+        "An asynchronous function for handling API requests.",
+        "An Immediately Invoked Function Expression used to create a private scope for variables."
+      ],
+      "correctOption": 3,
+      "points": 14,
+      "type": "javascript"
+    },
+    {
+      "question": "What is the purpose of the 'try...catch' statement in JavaScript?",
+      "options": [
+        "To create loops that iterate over arrays.",
+        "To create asynchronous code blocks.",
+        "To handle exceptions and errors in code.",
+        "To compare two values and return a boolean result."
+      ],
+      "correctOption": 2,
+      "points": 15,
+      "type": "javascript"
+    },
+    {
+      "question": "What is the difference between 'var', 'let', and 'const'?",
+      "options": [
+        "'var' has block scope, 'let' has function scope, and 'const' has global scope.",
+        "'var' allows reassignment, 'let' allows hoisting, and 'const' has block scope.",
+        "'var' has global scope, 'let' has function scope, and 'const' is immutable.",
+        "'var' allows hoisting, 'let' has block scope, and 'const' cannot be reassigned."
+      ],
+      "correctOption": 3,
+      "points": 13,
+      "type": "javascript"
+    },
+
+    {
+      "question": "What is Python?",
+      "options": [
+        "A high-level programming language.",
+        "A type of snake.",
+        "A data visualization tool.",
+        "A hardware component."
+      ],
+      "correctOption": 0,
+      "points": 14,
+      "type": "python"
+    },
+    {
+      "question": "What is the purpose of the 'print' function in Python?",
+      "options": [
+        "To take user input.",
+        "To perform mathematical calculations.",
+        "To display output on the screen.",
+        "To create graphical user interfaces."
+      ],
+      "correctOption": 2,
+      "points": 13,
+      "type": "python"
+    },
+    {
+      "question": "What is a 'list' in Python?",
+      "options": [
+        "A collection of ordered elements.",
+        "A function for mathematical operations.",
+        "A keyword used in loops.",
+        "A data type for representing fractions."
+      ],
+      "correctOption": 0,
+      "points": 12,
+      "type": "python"
+    },
+    {
+      "question": "What is the purpose of the 'len' function in Python?",
+      "options": [
+        "To create a new list.",
+        "To concatenate strings.",
+        "To check if a value exists in a list.",
+        "To get the number of elements in a sequence."
+      ],
+      "correctOption": 3,
+      "points": 15,
+      "type": "python"
+    },
+    {
+      "question": "What is the concept of indentation in Python?",
+      "options": [
+        "A way to write single-line comments.",
+        "A method to define classes and objects.",
+        "A technique to format strings.",
+        "A way to define block structures and scope in code."
+      ],
+      "correctOption": 3,
+      "points": 14,
+      "type": "python"
+    },
+    {
+      "question": "What is the purpose of 'if' statements in Python?",
+      "options": [
+        "To create loops.",
+        "To handle exceptions.",
+        "To define functions.",
+        "To control the flow of code based on conditions."
+      ],
+      "correctOption": 3,
+      "points": 13,
+      "type": "python"
+    },
+    {
+      "question": "What is the difference between '==' and 'is' in Python?",
+      "options": [
+        "'==' checks for object identity, while 'is' checks for value equality.",
+        "'==' checks for value equality, while 'is' checks for object identity.",
+        "'==' is used for assignment, while 'is' is used for comparisons.",
+        "'==' performs type coercion, while 'is' performs strict equality checks."
+      ],
+      "correctOption": 1,
+      "points": 12,
+      "type": "python"
+    },
+    {
+      "question": "What is a 'dictionary' in Python?",
+      "options": [
+        "A data structure that stores elements in a sorted order.",
+        "A function that maps values to keys.",
+        "A type of loop in Python.",
+        "A collection of key-value pairs."
+      ],
+      "correctOption": 3,
+      "points": 14,
+      "type": "python"
+    },
+    {
+      "question": "What is the purpose of the 'for' loop in Python?",
+      "options": [
+        "To create functions.",
+        "To handle exceptions.",
+        "To execute a block of code repeatedly based on a condition.",
+        "To define class structures."
+      ],
+      "correctOption": 2,
+      "points": 15,
+      "type": "python"
+    },
+    {
+      "question": "What is the role of 'import' statements in Python?",
+      "options": [
+        "To define global variables.",
+        "To execute a specific module.",
+        "To create instances of classes.",
+        "To include external modules and their functionalities in Python code."
+      ],
+      "correctOption": 3,
+      "points": 13,
+      "type": "python"
+    },
+
+    {
+      "question": "What is the purpose of the 'range' function in Python?",
+      "options": [
+        "To generate random numbers.",
+        "To iterate over a sequence of numbers.",
+        "To calculate mathematical equations.",
+        "To perform string manipulations."
+      ],
+      "correctOption": 1,
+      "points": 14,
+      "type": "python"
+    },
+    {
+      "question": "What is the concept of a 'tuple' in Python?",
+      "options": [
+        "A type of function in Python.",
+        "A way to represent complex numbers.",
+        "A data structure similar to a list but immutable.",
+        "A mechanism to define custom exceptions."
+      ],
+      "correctOption": 2,
+      "points": 13,
+      "type": "python"
+    },
+    {
+      "question": "What is the purpose of 'try...except' blocks in Python?",
+      "options": [
+        "To create conditional statements.",
+        "To handle exceptions and errors in code.",
+        "To define loop structures.",
+        "To import external modules."
+      ],
+      "correctOption": 1,
+      "points": 12,
+      "type": "python"
+    },
+    {
+      "question": "What is a 'set' in Python?",
+      "options": [
+        "A way to define custom classes.",
+        "A function for mathematical operations.",
+        "A data structure for storing key-value pairs.",
+        "A collection of unique elements without a specific order."
+      ],
+      "correctOption": 3,
+      "points": 15,
+      "type": "python"
+    },
+    {
+      "question": "What is the purpose of the 'break' statement in Python?",
+      "options": [
+        "To exit a loop prematurely.",
+        "To create a new function.",
+        "To skip the current iteration of a loop.",
+        "To define a custom exception."
+      ],
+      "correctOption": 0,
+      "points": 14,
+      "type": "python"
+    },
+    {
+      "question": "What is a 'module' in Python?",
+      "options": [
+        "A way to define global variables.",
+        "A collection of key-value pairs.",
+        "A unit of code that can be reused in other programs.",
+        "A data type for storing multiple values."
+      ],
+      "correctOption": 2,
+      "points": 13,
+      "type": "python"
+    },
+    {
+      "question": "What does the 'pass' statement do in Python?",
+      "options": [
+        "It terminates the program execution.",
+        "It creates a new function.",
+        "It skips the current iteration of a loop.",
+        "It is a placeholder indicating no action is taken."
+      ],
+      "correctOption": 3,
+      "points": 12,
+      "type": "python"
+    },
+    {
+      "question": "What is the role of the 'lambda' function in Python?",
+      "options": [
+        "To define complex mathematical equations.",
+        "To create anonymous functions without a name.",
+        "To create recursive functions.",
+        "To define functions with multiple return values."
+      ],
+      "correctOption": 1,
+      "points": 15,
+      "type": "python"
+    },
+    {
+      "question": "What is the purpose of the 'with' statement in Python?",
+      "options": [
+        "To create context managers for resource management.",
+        "To define conditional statements.",
+        "To create asynchronous code blocks.",
+        "To handle exceptions and errors."
+      ],
+      "correctOption": 0,
+      "points": 14,
+      "type": "python"
+    },
+    {
+      "question": "What is the concept of list comprehension in Python?",
+      "options": [
+        "A technique for creating random lists.",
+        "A way to modify existing lists in place.",
+        "A method for copying lists.",
+        "A concise way to create new lists by applying an expression to each item in an existing iterable."
+      ],
+      "correctOption": 3,
+      "points": 13,
+      "type": "python"
+    },
+
+    {
+      "question": "What does 'MERN' stand for in web development?",
+      "options": [
+        "Mango, Express, React, Node",
+        "MongoDB, Express, React, Node",
+        "Materialize, Ember, React, Next.js",
+        "MySQL, EJS, React, Nginx"
+      ],
+      "correctOption": 1,
+      "points": 14,
+      "type": "MERN"
+    },
+    {
+      "question": "Which component in the MERN stack handles the server-side logic?",
+      "options": ["MongoDB", "Express", "React", "Node"],
+      "correctOption": 3,
+      "points": 13,
+      "type": "MERN"
+    },
+    {
+      "question": "What is the purpose of MongoDB in the MERN stack?",
+      "options": [
+        "To create dynamic user interfaces",
+        "To manage server-side routing",
+        "To handle client-side state management",
+        "To store and manage the application's data"
+      ],
+      "correctOption": 3,
+      "points": 12,
+      "type": "MERN"
+    },
+    {
+      "question": "Which part of the MERN stack is responsible for handling front-end UI components?",
+      "options": ["MongoDB", "Express", "React", "Node"],
+      "correctOption": 2,
+      "points": 15,
+      "type": "MERN"
+    },
+    {
+      "question": "What is the role of 'Express' in the MERN stack?",
+      "options": [
+        "To create user interfaces",
+        "To handle server-side logic and API routes",
+        "To manage client-side state",
+        "To manage the application's database"
+      ],
+      "correctOption": 1,
+      "points": 14,
+      "type": "MERN"
+    },
+    {
+      "question": "Which part of the MERN stack enables server-side JavaScript runtime?",
+      "options": ["MongoDB", "Express", "React", "Node"],
+      "correctOption": 3,
+      "points": 13,
+      "type": "MERN"
+    },
+    {
+      "question": "What is the purpose of 'React' in the MERN stack?",
+      "options": [
+        "To create server-side routing",
+        "To manage the back-end logic",
+        "To create interactive user interfaces",
+        "To handle API requests"
+      ],
+      "correctOption": 2,
+      "points": 12,
+      "type": "MERN"
+    },
+    {
+      "question": "Which part of the MERN stack is often used for building RESTful APIs?",
+      "options": ["MongoDB", "Express", "React", "Node"],
+      "correctOption": 1,
+      "points": 15,
+      "type": "MERN"
+    },
+    {
+      "question": "What is the purpose of 'Node' in the MERN stack?",
+      "options": [
+        "To create front-end UI components",
+        "To handle client-side routing",
+        "To handle server-side logic and API routes",
+        "To manage the application's database"
+      ],
+      "correctOption": 2,
+      "points": 14,
+      "type": "MERN"
+    },
+    {
+      "question": "Which part of the MERN stack is responsible for handling the back-end business logic?",
+      "options": ["MongoDB", "Express", "React", "Node"],
+      "correctOption": 3,
+      "points": 13,
+      "type": "MERN"
+    },
+
+    {
+      "question": "What is the role of 'Axios' in the MERN stack?",
+      "options": [
+        "To create user interfaces",
+        "To handle server-side routing",
+        "To manage HTTP requests from the front-end to the back-end",
+        "To handle back-end logic"
+      ],
+      "correctOption": 2,
+      "points": 14,
+      "type": "MERN"
+    },
+    {
+      "question": "What is the purpose of 'JWT' in the context of the MERN stack?",
+      "options": [
+        "A front-end framework in React",
+        "A query language for MongoDB",
+        "A user authentication method using JSON Web Tokens",
+        "A back-end routing library in Node.js"
+      ],
+      "correctOption": 2,
+      "points": 13,
+      "type": "MERN"
+    },
+    {
+      "question": "What is 'Redux' in the context of the MERN stack?",
+      "options": [
+        "A database management tool for MongoDB",
+        "A user authentication library for Node.js",
+        "A state management library for managing global state in React applications",
+        "A CSS framework for styling React components"
+      ],
+      "correctOption": 2,
+      "points": 12,
+      "type": "MERN"
+    },
+    {
+      "question": "What is the purpose of 'Express Router' in the MERN stack?",
+      "options": [
+        "To manage database connections",
+        "To handle routing and create APIs in Express",
+        "To define React components",
+        "To render HTML templates in Node.js"
+      ],
+      "correctOption": 1,
+      "points": 15,
+      "type": "MERN"
+    },
+    {
+      "question": "What is the concept of 'Single Page Application' (SPA) in the context of the MERN stack?",
+      "options": [
+        "An application with only one page that displays all the content",
+        "An application that requires multiple browser refreshes for each action",
+        "An application that uses separate pages for different tasks",
+        "An application with single user access"
+      ],
+      "correctOption": 0,
+      "points": 14,
+      "type": "MERN"
+    },
+    {
+      "question": "What is the role of 'Webpack' in the MERN stack?",
+      "options": [
+        "To create RESTful APIs",
+        "To bundle and optimize front-end assets",
+        "To handle server-side routing",
+        "To manage back-end authentication"
+      ],
+      "correctOption": 1,
+      "points": 13,
+      "type": "MERN"
+    },
+    {
+      "question": "What is the purpose of 'Passport' in the context of the MERN stack?",
+      "options": [
+        "To create interactive UI components",
+        "To handle client-side routing",
+        "To manage user authentication and authorization",
+        "To build back-end APIs"
+      ],
+      "correctOption": 2,
+      "points": 12,
+      "type": "MERN"
+    },
+    {
+      "question": "What is the significance of 'React Router' in the MERN stack?",
+      "options": [
+        "To manage MongoDB connections",
+        "To handle server-side routing in Express",
+        "To implement client-side routing in React applications",
+        "To create front-end UI components"
+      ],
+      "correctOption": 2,
+      "points": 15,
+      "type": "MERN"
+    },
+    {
+      "question": "What is the purpose of 'npm' (Node Package Manager) in the MERN stack?",
+      "options": [
+        "To manage and install front-end packages",
+        "To manage and install server-side packages",
+        "To create back-end APIs",
+        "To handle client-side routing"
+      ],
+      "correctOption": 1,
+      "points": 14,
+      "type": "MERN"
+    },
+    {
+      "question": "What is the concept of 'CORS' (Cross-Origin Resource Sharing) in the MERN stack?",
+      "options": [
+        "A technique to improve front-end UI performance",
+        "A security feature to prevent unauthorized access to APIs",
+        "A mechanism that allows or restricts requests from different origins",
+        "A method to handle user authentication"
+      ],
+      "correctOption": 2,
+      "points": 13,
+      "type": "MERN"
+    }
+  ]
+}
